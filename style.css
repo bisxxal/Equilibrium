@@ -1,0 +1,259 @@
+@font-face {
+  font-family: "nimbas";
+  src: url(assets/NimbusSanL-Reg.otf);
+}
+:root {
+  --p-padding: 20px 120px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: nimbas;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  width: 100%;
+}
+
+.nav {
+  padding: 20px 30px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  padding: var(--p-padding);
+}
+.nav div {
+  display: flex;
+  gap: 29px;
+}
+.hero {
+  min-height: 100vh;
+  width: 100%;
+  margin-top: 12vw;
+  display: flex;
+  justify-content: space-between;
+  padding: var(--p-padding);
+}
+.sustain {
+  width: 20vw;
+}
+.sustain h4 {
+  font-size: 1.7vh;
+  font-weight: 300;
+}
+.sustaindiv {
+  height: 20vw;
+  width: 69%;
+  overflow: hidden;
+}
+
+.sustaindiv img {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover;
+}
+
+.ephemeral {
+  height: 23vh;
+  width: 27vw;
+
+  position: relative;
+}
+.ephemeral p {
+  width: 43%;
+  font-weight: 600;
+  font-size: 17px;
+  margin-top: 2vh;
+}
+.textdiv {
+  position: absolute;
+  bottom: 19vh;
+  right: 6vw;
+  z-index: 1;
+}
+.textdiv h1 {
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 64px;
+}
+.equilibrium {
+  width: 100%;
+}
+.equilibrium img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.visit {
+  height: 64vh;
+  display: flex;
+  align-items: center;
+  width: 14vw;
+}
+.visit h1 {
+  font-weight: 500;
+  font-size: 20px;
+}
+.visit i {
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-right: 28px;
+  padding: 1.8vh;
+  font-size: 18px;
+}
+
+.page2 {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  padding: var(--p-padding);
+}
+.upperdiv2 {
+  width: 100%;
+  height: 50%; 
+  display: flex;
+  justify-content: space-between;
+}
+.upperdiv2 h2{
+  color: gray;
+  font-weight: 500;
+}
+.upperdiv2 p {
+  font-size: 29px;
+  font-weight: 500;
+  text-align: right;
+  width: 77%;
+  margin: 33px 0;
+  margin-right: 7vw;
+  line-height: 53px;
+}
+.upperdiv2 h2 {
+  width: 29vw;
+}
+.upperdiv2 p span {
+  display: inline-block;
+  height: 44px;
+  margin-bottom: -14px;
+  width: 108px;
+  border-radius: 50px;
+  overflow: hidden;
+  border: none;
+  outline: none;
+}
+span img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.pictures {
+  width: 100%;
+margin-top: 3vw; 
+  display: flex;
+  justify-content: space-between;
+  padding: var(--p-padding);
+}
+.firstpic {
+ margin: var(--p-padding);
+ height: 66vh; 
+ width: 17vw;
+
+}
+.fistpicimgpart {
+  width: 100%;
+  height: 85%; 
+  margin-bottom: 2vh;
+}
+.fistpicimgpart img,.secondimgpart img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.secondimgpart {
+  margin-bottom: 2vh;
+}
+.secondpic{
+    display: flex;
+    flex-direction: column;
+    margin: var(--p-padding);
+    width: 22vw; 
+    width: 27vw;
+text-align: right;
+align-items: end;
+}
+ .secondpic p{
+    width: 60%;
+ }
+ .firstpic p{
+    width: 85%;
+ }
+ .bottel{
+    padding: var(--p-padding);
+   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+ }
+ .bottelimg{
+    width: 70%;
+    height: 30vw;
+   
+ }
+ .bottelimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 70%;
+ }
+ .botteltext{
+    padding-left: 10vh;
+ }
+ .botteltext p{
+   width: 57%;
+ }
+ .videopart{
+    height: 100vh;
+    width: 100%;
+position: relative; 
+/* margin-top: 9vw; */
+overflow: hidden;
+ }
+ video{
+    /* height: 100%;     */
+    width: 100%;
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    opacity: 0;
+ }
+ .vidtext{
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+}
+ .videopart button{
+  border: 1px solid gray;
+    padding: 15px 31px;
+    border-radius: 43px;
+    /* border: none; */
+    font-size: 22px;
+    background-color: transparent;
+
+ }
+
+ 
